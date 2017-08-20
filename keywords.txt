@@ -1,0 +1,9 @@
+bitDisplay	KEYWORD1
+setPoint	KEYWORD2
+clearPoint	KEYWORD2
+showText	KEYWORD2
+line		KEYWORD2
+draw		KEYWORD2
+drawForMillis	KEYWORD2
+buttonA		KEYWORD2
+buttonB		KEYWORD2
