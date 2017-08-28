@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D19817AF1F534085008A3AE6 /* bitDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D19817AE1F53406B008A3AE6 /* bitDisplay.cpp */; };
+		D19817B31F5342E9008A3AE6 /* showText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D19817B21F5342E9008A3AE6 /* showText.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D19817A51F534035008A3AE6 /* c_complation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = c_complation; path = /Users/kartal/Documents/Arduino/libraries/bitDisplay/build/Debug/c_complation; sourceTree = "<absolute>"; };
 		D19817AD1F53406B008A3AE6 /* bitDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitDisplay.h; sourceTree = SOURCE_ROOT; };
 		D19817AE1F53406B008A3AE6 /* bitDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bitDisplay.cpp; sourceTree = SOURCE_ROOT; };
+		D19817B01F5342D0008A3AE6 /* c_complation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = c_complation; path = /Users/kartal/Documents/Arduino/libraries/bitDisplay/build/Debug/c_complation; sourceTree = "<absolute>"; };
+		D19817B11F5342E9008A3AE6 /* showText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showText.h; sourceTree = SOURCE_ROOT; };
+		D19817B21F5342E9008A3AE6 /* showText.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = showText.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 			children = (
 				D19817AE1F53406B008A3AE6 /* bitDisplay.cpp */,
 				D19817AD1F53406B008A3AE6 /* bitDisplay.h */,
+				D19817B21F5342E9008A3AE6 /* showText.cpp */,
+				D19817B11F5342E9008A3AE6 /* showText.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +86,7 @@
 			);
 			name = c_complation;
 			productName = c_complation;
-			productReference = D19817A51F534035008A3AE6 /* c_complation */;
+			productReference = D19817B01F5342D0008A3AE6 /* c_complation */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19817AF1F534085008A3AE6 /* bitDisplay.cpp in Sources */,
+				D19817B31F5342E9008A3AE6 /* showText.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,4 +20,14 @@
 #pragma once
 #include "bitDisplay.h"
 
+class showTextTask {
+public:
+	bitDisplay display;
+	drawFrame();
+	void setString(String);
+private:
+	char* stringToShow;
+	int animFrame = -5;
+	unsigned long animStart;
+};
 
